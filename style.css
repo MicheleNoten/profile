@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Playfair Display';
+  font-weight: lighter;
+  text-align: center;
+}
+
+.main-text {
+  background-color: #F0EFEB;
+  color: #A5A58D;
+  font-weight:lighter;
+  font-size: 22px;
+  border: 50px solid #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  padding: 20px;
+  text-align: center;
+  opacity: 95%;
+  border-radius: 30% 70% 20% 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-header {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.user-header h1 {
+  margin-right: 50px;
+}
+
+h1 {
+  color: #CB997E;
+  font-family: 'Nunito Sans';
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h3 {
+  color: #CB997E;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+
+/* #icons {
+  padding: 5px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #CB997E;
+} */
+
+.list-inline {
+  list-style-type: none;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.list-inline i {
+  color: #CB997E;
+}
+
+#profile {
+  width: 150px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 40% 20% 60% 30%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.simple {
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding: 10px 40px 10px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.simple::after {
+  content: "";
+  background-color: #CB997E;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+}
+
+.img1 { background-image: url("images/DSC09097.jpg"); }
+.img2 { background-image: url("images/12AFC962-0C29-4F81-9CDC-3F988BCB0E8E-EDIT.jpg"); }
+.img3 { background-image: url("images/IMG_4279.jpg"); }
+.img4 { background-image: url("images/IMG_4203-EDIT.jpg"); }
